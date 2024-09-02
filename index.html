@@ -7,7 +7,19 @@
 </head>
 <body>
     <h1 id="greeting">Loading...</h1>
-    <p id="shift-rate">Loading...</p>
+    <p id="shift-rate">Select a shift to see the rate</p>
+
+    <form id="shift-form">
+      <label>
+        <input type="radio" name="shift" value="morning" checked> Morning
+      </label>
+      <label>
+        <input type="radio" name="shift" value="afternoon"> Afternoon
+      </label>
+      <label>
+        <input type="radio" name="shift" value="nightshift"> Night Shift
+      </label>
+    </form>
     
     <script src="greet.js"></script>
 </body>
