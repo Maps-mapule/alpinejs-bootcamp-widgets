@@ -75,7 +75,6 @@ ge
       shiftForm.addEventListener('change', updateShiftRate);
    
       updateShiftRate();
-    }
-  });
+    };
   
   
