@@ -11,9 +11,6 @@ function greet(neighbourName) {
         return 'R10';
       case 'nightshift':
         return 'free';
-      default:
-        return 'Invalid shift';
-    }
   }
   
   function totalPhoneBill(data) {
