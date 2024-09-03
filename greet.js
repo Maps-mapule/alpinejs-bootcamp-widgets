@@ -36,6 +36,14 @@ function greet(neighbourName) {
     }
   }
   
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const calculateButton = document.getElementById('calculate-bill');
+    if (calculateButton) {
+      calculateButton.addEventListener('click', calculatePhoneBill);
+    }
+  });
+  
+  
   function updateShiftRate() {
     const shift = document.querySelector('input[name="shift"]:checked').value;
     const shiftElement = document.getElementById('shift-rate');
