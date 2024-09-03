@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #4CAF50;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+b {
+    color: #333;
+}
+
+#shift-rate, #total-bill, #airtime-left {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #4CAF50;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#phone-bill, #airtime, #shift-form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
