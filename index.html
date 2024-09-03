@@ -9,7 +9,9 @@
 </head>
 <body>
     <h1 id="greeting">greeting</h1>
+   <b> 
     <p id="shift-rate">Select</p>
+   </b>
 
     <form id="shift-form">
       <label>
@@ -24,16 +26,16 @@
     </form>
     
     <div id="phone-bill">
-        <label for="phone-data">Enter phone usage (e.g., "call, sms, call, sms, sms"):</label>
+        <label for="phone-data"> <b>Enter phone usage</b> (e.g., "call, sms"):</label>
         <input type="text" id="phone-data" placeholder="phone usage">
-        <button id="calculate-bill">Calculate Bill</button>
-        <p id="total-bill">Total bill</p>
+        <button id="calculate-bill"><b>Calculate Bill</b></button>
+        <p id="total-bill"><b>Total bill</b></p>
       </div>
     
       <div id="airtime">
-        <label for="projected-usage">Enter projected usage (e.g., "call,call,call,data,sms"):</label>
-        <input type="text" id="projected-usage" placeholder="call, call, data">
-        <label for="available-airtime">Enter available airtime (e.g., "50"):</label>
+        <label for="projected-usage"><b>Enter projected usage</b> (e.g., "call,call,call,data,sms"):</label>
+        <input type="text" id="projected-usage" placeholder="call, data">
+        <label for="available-airtime">Enter available airtime:</label>
         <input type="number" id="available-airtime" placeholder="50">
         <button id="calculate-airtime">Calculate Airtime</button>
         <p id="airtime-left">Remaining airtime will be displayed here</p>
